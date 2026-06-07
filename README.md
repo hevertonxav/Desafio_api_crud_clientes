@@ -9,3 +9,16 @@
 ![Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=flat-square&logo=Apache%20Maven&logoColor=white)
 ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=flat-square&logo=Hibernate&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white)
+
+Desafio proposto pelo curso de Spring Profesional Professor Nelio Alves - DevSuperior.
+
+## 📇 Sumário
+- [Objetivo do desafio](#-objetivo-do-desafio)
+- [Tecnologias utilizadas](#-tecnologias-utilizadas)
+- [Estrutura do projeto](#-estrutura-do-projeto)
+- [Regras de negócio](#-regras-de-negócio)
+- [Como executar](#-como-executar)
+- [Endpoints](#-endpoints)
+- [Decisões de implementação](#-decisões-de-implementação)
+- [Fluxo de funcionamento](#-fluxo-de-funcionamento)
+- [Exemplos de entrada e saída](#-exemplos-de-entrada-e-saída)
