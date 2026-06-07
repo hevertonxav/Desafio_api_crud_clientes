@@ -22,3 +22,8 @@ Desafio proposto pelo curso de Spring Profesional Professor Nelio Alves - DevSup
 - [Decisões de implementação](#-decisões-de-implementação)
 - [Fluxo de funcionamento](#-fluxo-de-funcionamento)
 - [Exemplos de entrada e saída](#-exemplos-de-entrada-e-saída)
+
+## 📌 Objetivo do desafio
+Desenvolver uma API REST para gerenciamento de clientes, permitindo cadastro, consulta de todos os clientes, consulta de um cliente específico usando id, atualizaçao e deleção, o famoso CRUD. Além disso o programa deve retornar exceções e codigos de erro para o usuário permitindo assim saber a causa do problema e também retornar mensagens de dados inválidos pelo usuário.
+
+
