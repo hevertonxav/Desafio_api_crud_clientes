@@ -36,6 +36,7 @@ Desenvolver uma API REST para gerenciamento de clientes, permitindo cadastro, co
 ## 🗂️ Estrutura do projeto
 <details>
     <summary><strong>👉🏼🚨 Clique para acessar o conteúdo técnico completo</strong></summary>
+
 ├── 📁 src/main/java/com/heverton/client_management_api
 │   ├── 📁 controllers                     # Endpoints REST para gerenciamento dos clientes
 │   │   └── 📁 handlers                    # Tratamento global de exceções da API
