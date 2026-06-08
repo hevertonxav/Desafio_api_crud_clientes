@@ -52,9 +52,9 @@ Desenvolver uma API REST para gerenciamento de clientes, permitindo cadastro, co
 ├── 📁 src/main/resources
 │   ├── 📄 application.properties          # Configurações da aplicação
 │   ├── 📄 application-test.properties     # Configurações do ambiente de teste
-│   └── 📄 import.sql                      # Dados iniciais para o banco
+│   └── 📄 import.sql                      # Configurações de conexão com o banco de dados e Hibernate
 │
-└── 📄 pom.xml                             # Gerenciador de dependências Maven
+└── 📄 pom.xml                             # Gerenciador de dependências Maven (Spring Starter, MySQL, JPA)
 ```
 
 </details>
