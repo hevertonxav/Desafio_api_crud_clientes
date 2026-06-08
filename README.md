@@ -37,6 +37,12 @@ Desenvolver uma API REST para gerenciamento de clientes, permitindo cadastro, co
 <details>
     <summary><strong>👉🏼🚨 Clique para acessar o conteúdo técnico completo</strong></summary>
 
+      ## 🗂️ Estrutura do projeto
+
+<details>
+<summary><strong>👉🏼🚨 Clique para acessar o conteúdo técnico completo</strong></summary>
+
+```text
 ├── 📁 src/main/java/com/heverton/client_management_api
 │   ├── 📁 controllers                     # Endpoints REST para gerenciamento dos clientes
 │   │   └── 📁 handlers                    # Tratamento global de exceções da API
@@ -44,17 +50,18 @@ Desenvolver uma API REST para gerenciamento de clientes, permitindo cadastro, co
 │   ├── 📁 entities                        # Entidades JPA mapeadas para o banco de dados
 │   ├── 📁 repositories                    # Interfaces JPA para acesso aos dados
 │   ├── 📁 services                        # Regras de negócio da aplicação
-|   |    └── 📁 exceptions                 # Exceções personalizadas da aplicação
-│   └── ☕ ClientManagementApiApplication  # Classe principal que inicia o Spring Boot         
-│  
+│   │   └── 📁 exceptions                  # Exceções personalizadas da aplicação
+│   └── ☕ ClientManagementApiApplication  # Classe principal que inicia o Spring Boot
 │
 ├── 📁 src/main/resources
 │   ├── 📄 application.properties          # Configurações da aplicação
-│   ├── 📄 application-test.properties     # Configurações de conexão com o banco de dados e Hibernate
+│   ├── 📄 application-test.properties     # Configurações do ambiente de teste
 │   └── 📄 import.sql                      # Dados iniciais para o banco
 │
-└── 📄 pom.xml                             # Gerenciador de dependências Maven (Spring Starter, MySQL, JPA)
-    
+└── 📄 pom.xml                             # Gerenciador de dependências Maven
+```
+
+</details>
 </details>
     
 
