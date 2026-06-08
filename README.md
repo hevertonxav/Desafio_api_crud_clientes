@@ -33,4 +33,28 @@ Desenvolver uma API REST para gerenciamento de clientes, permitindo cadastro, co
 * **Banco de Dados:** H2
 * **Testes de API:** Postman
 
+## 🗂️ Estrutura do projeto
+<details>
+    <summary><strong>👉🏼🚨 Clique para acessar o conteúdo técnico completo</strong></summary>
+├── 📁 src/main/java/com/heverton/client_management_api
+│   ├── 📁 controllers                     # Endpoints REST para gerenciamento dos clientes
+│   │   └── 📁 handlers                    # Tratamento global de exceções da API
+│   ├── 📁 dto                             # Objetos de transferência de dados (entrada e saída)
+│   ├── 📁 entities                        # Entidades JPA mapeadas para o banco de dados
+│   ├── 📁 repositories                    # Interfaces JPA para acesso aos dados
+│   ├── 📁 services                        # Regras de negócio da aplicação
+|   |    └── 📁 exceptions                 # Exceções personalizadas da aplicação
+│   └── ☕ ClientManagementApiApplication  # Classe principal que inicia o Spring Boot         
+│  
+│
+├── 📁 src/main/resources
+│   ├── 📄 application.properties          # Configurações da aplicação
+│   ├── 📄 application-test.properties     # Configurações de conexão com o banco de dados e Hibernate
+│   └── 📄 import.sql                      # Dados iniciais para o banco
+│
+└── 📄 pom.xml                             # Gerenciador de dependências Maven (Spring Starter, MySQL, JPA)
+    
+</details>
+    
+
 
