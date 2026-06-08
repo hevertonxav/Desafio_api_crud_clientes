@@ -78,7 +78,7 @@ Desenvolver uma API REST para gerenciamento de clientes, permitindo cadastro, co
 ```bash
 git clone https://github.com/hevertonxav/Desafio_api_crud_clientes.git
 ```
-2. **Abrir o arquivo application-test.propertie:**
+2. **Abrir o arquivo application-test.propertie:(opcional)**
 ```text
 src/
 └── main/
@@ -91,5 +91,10 @@ Nesse arquivo tem todas as informações pra você precisa para logar no banco d
 ```Bash
 ./mvnw spring-boot:run
 ```
+4. **Testar os Endpoints:**
+
+* A API estará disponível em ``http://localhost:8080``.
+* Você pode importar os arquivos de teste no **Postman**.
+* Você pode acessar o banco H2 através do endpoint ``http://localhost:8080/h2-console`` (opcional), preencha os campos com as informações que estão no arquivo aplication-test.propertie e clique em Connect
 
 
