@@ -34,10 +34,6 @@ Desenvolver uma API REST para gerenciamento de clientes, permitindo cadastro, co
 * **Testes de API:** Postman
 
 ## 🗂️ Estrutura do projeto
-<details>
-    <summary><strong>👉🏼🚨 Clique para acessar o conteúdo técnico completo</strong></summary>
-
-      ## 🗂️ Estrutura do projeto
 
 <details>
 <summary><strong>👉🏼🚨 Clique para acessar o conteúdo técnico completo</strong></summary>
