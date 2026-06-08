@@ -14,7 +14,7 @@ Desafio proposto pelo curso de Spring Profesional Professor Nelio Alves - DevSup
 
 ## 📇 Sumário
 - [Objetivo do desafio](#-objetivo-do-desafio)
-- [Tecnologias utilizadas](#-tecnologias-utilizadas)
+- [Ferramentas e tecnologias utilizadas](#-ferramentas-e-tecnologias-utilizadas)
 - [Estrutura do projeto](#-estrutura-do-projeto)
 - [Regras de negócio](#-regras-de-negócio)
 - [Como executar](#-como-executar)
@@ -25,5 +25,12 @@ Desafio proposto pelo curso de Spring Profesional Professor Nelio Alves - DevSup
 
 ## 📌 Objetivo do desafio
 Desenvolver uma API REST para gerenciamento de clientes, permitindo cadastro, consulta de todos os clientes, consulta de um cliente específico usando id, atualizaçao e deleção, o famoso CRUD. Além disso o programa deve retornar exceções e codigos de erro para o usuário permitindo assim saber a causa do problema e também retornar mensagens de dados inválidos pelo usuário.
+
+## 🛠️ Tecnologias Utilizadas
+* **Linguagem:** Java 21
+* **Framework:** Spring Boot (Spring Data JPA, Spring Web)
+* **ORM:** Hibernate (Gerenciamento de persistência)
+* **Banco de Dados:** H2
+* **Testes de API:** Postman
 
 
