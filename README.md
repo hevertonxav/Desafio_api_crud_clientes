@@ -58,9 +58,38 @@ Desenvolver uma API REST para gerenciamento de clientes, permitindo cadastro, co
 ```
 
 </details>
+## ⚙️ Regras de Negócio
 
-</details>
-</details>
+- Nome deve possuir entre 3 e 80 caracteres.
+- CPF deve ser válido.
+- Data de nascimento não pode ter data futura.
+- Não é permitido cadastrar clientes com CPF já existente.
+- Atualizações devem respeitar as mesmas validações do cadastro.
+- Nome e CPF não podem ter campos vazios
     
+## 🚀 Como Executar
+
+### Pré-requisitos
+* Java 21 ou superior instalado.
+* Maven, pois o projeto inclui o `mvnw`.
+
+### Passo a passo
+1. **Clonar o repositório:**
+```bash
+git clone https://github.com/hevertonxav/Desafio_api_crud_clientes.git
+```
+2. **Abrir o arquivo application-test.propertie:**
+   ```text
+src/
+└── main/
+    └── resources/
+        └── application-test.properties
+```
+Nesse arquivo tem todas as informações pra você precisa para logar no banco de dados H2.
+
+3. **Executar a aplicação:**
+```Bash
+./mvnw spring-boot:run
+```
 
 
