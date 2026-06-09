@@ -20,8 +20,8 @@ Desafio proposto pelo curso de Spring Profesional Professor Nelio Alves - DevSup
 - [Como executar](#-como-executar)
 - [Endpoints](#-endpoints)
 - [Decisões de implementação](#-decisões-de-implementação)
-- [Fluxo de funcionamento](#-fluxo-de-funcionamento)
 - [Exemplos de entrada e saída](#-exemplos-de-entrada-e-saída)
+- [Aprendizados](#-aprendizados)
 
 ## 📌 Objetivo do desafio
 Desenvolver uma API REST para gerenciamento de clientes, permitindo cadastro, consulta de todos os clientes, consulta de um cliente específico usando id, atualizaçao e deleção, o famoso CRUD. Além disso o programa deve retornar exceções e codigos de erro para o usuário permitindo assim saber a causa do problema e também retornar mensagens de dados inválidos pelo usuário.
@@ -95,6 +95,58 @@ Nesse arquivo tem todas as informações pra você precisa para logar no banco d
 
 * A API estará disponível em ``http://localhost:8080``.
 * Você pode importar os arquivos de teste no **Postman**.
-* Você pode acessar o banco H2 através do endpoint ``http://localhost:8080/h2-console`` (opcional), preencha os campos com as informações que estão no arquivo aplication-test.propertie e clique em Connect
+* Você pode acessar o banco H2 através do endpoint ``http://localhost:8080/h2-console`` (opcional), preencha os campos com as informações que estão no arquivo aplication-test.propertie e clique em Connect.
 
 
+## 💡 Decisões de Implementação
+
+- Utilização de DTOs para evitar exposição direta das entidades.
+- ClientUpdateDTO para não permitir a alteração do CPF do cliente já existente
+- Separação em camadas Controller, Service e Repository.
+- Uso de Bean Validation para validação de entrada.
+- Tratamento centralizado de exceções.
+- Banco H2 para ambiente de desenvolvimento e testes.
+
+## 📋 Exemplos de Entrada e Saída
+
+### Entrada
+
+```json
+{
+  "name": "Maria Oliveira",
+  "cpf": "64981455011",
+  "income": 7500.0,
+  "birthDate": "1990-01-15",
+  "children": 2
+}
+```
+### Saída
+
+```json
+{
+  "id": 11,
+  "name": "Maria Oliveira",
+  "cpf": "64981455011",
+  "income": 7500.0,
+  "birthDate": "1990-01-15",
+  "children": 2
+}
+```
+
+### Exemplo de erro
+
+```json
+{
+    "timestamp": "2026-06-08T23:54:19.676796500Z",
+    "status": 409,
+    "error": "Cliente com o CPF 98765432100 já existe",
+    "path": "/clients"
+}
+```
+## 📚 Aprendizados
+
+- Criação de APIs REST com Spring Boot.
+- Uso de DTOs para transferência de dados.
+- Validação de dados com Bean Validation.
+- Tratamento de exceções.
+- Integração com banco de dados utilizando JPA/Hibernate.
