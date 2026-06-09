@@ -71,7 +71,7 @@ Desenvolver uma API REST para gerenciamento de clientes, permitindo cadastro, co
 
 ### Pré-requisitos
 * Java 21 ou superior instalado.
-* Maven, pois o projeto inclui o `mvnw`.
+* Maven, pois o projeto incluir o `mvnw`.
 
 ### Passo a passo
 1. **Clonar o repositório:**
