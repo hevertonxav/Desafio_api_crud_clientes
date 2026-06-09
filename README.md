@@ -10,7 +10,7 @@
 ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=flat-square&logo=Hibernate&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white)
 
-Desafio proposto pelo curso de Spring Profesional Professor Nelio Alves - DevSuperior.
+Desafio proposto pelo curso de Spring Professional Professor Nelio Alves - DevSuperior.
 
 ## 📇 Sumário
 - [Objetivo do desafio](#-objetivo-do-desafio)
