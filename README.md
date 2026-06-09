@@ -144,6 +144,51 @@ Nesse arquivo tem todas as informações pra você precisa para logar no banco d
     "path": "/clients"
 }
 ```
+
+### Exemplo de erros de validações
+
+#### Entrada
+
+```json
+{
+  "name": "",
+  "cpf": "12345678901",
+  "income": 6500.0,
+  "birthDate": "2027-03-15",
+  "children": 3
+}
+```
+
+#### Saída
+
+```json
+{
+    "timestamp": "2026-06-09T00:08:21.601059100Z",
+    "status": 422,
+    "error": "Dados inválidos",
+    "path": "/clients",
+    "errors": [
+        {
+            "fieldName": "birthDate",
+            "message": "Não pode ser data futura"
+        },
+        {
+            "fieldName": "name",
+            "message": "Nome precisa ter de 3 a 80 caracteres"
+        },
+        {
+            "fieldName": "cpf",
+            "message": "O campo cpf precisa ser válido."
+        },
+        {
+            "fieldName": "name",
+            "message": "Campo requerido"
+        }
+    ]
+}
+```
+
+
 ## 📚 Aprendizados
 
 - Criação de APIs REST com Spring Boot.
