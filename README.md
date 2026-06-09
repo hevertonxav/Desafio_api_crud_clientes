@@ -58,6 +58,7 @@ Desenvolver uma API REST para gerenciamento de clientes, permitindo cadastro, co
 ```
 
 </details>
+
 ## ⚙️ Regras de Negócio
 
 - Nome deve possuir entre 3 e 80 caracteres.
